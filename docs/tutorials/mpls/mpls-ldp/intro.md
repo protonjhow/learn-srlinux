@@ -81,7 +81,7 @@ $ containerlab deploy -t clab-ldp.clab.yml
 A few seconds later, containerlab finishes the deployment by providing a summary table that outlines connection details of the deployed nodes. In the "Name" column we have the names of the deployed containers which can be used to reach the nodes. For example to connect to the SSH server of `srl1`:
 
 ```bash
-# default credentials admin:admin
+# default credentials admin:NokiaSrl1!
 ssh admin@srl1
 ```
 
